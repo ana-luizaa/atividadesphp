@@ -1,6 +1,6 @@
 <?php
 
-// Questão 2 ( Calcula a média das quatro notas do aluno)
+// Questão 1 (Calcula as quatro notas de um aluno)
 
 echo "Digite a nota 1: ";
 $nota1 = (float) trim(fgets(STDIN));
@@ -14,7 +14,7 @@ $nota3 = (float) trim(fgets(STDIN));
 echo "Digite a nota 4: ";
 $nota4 = (float) trim(fgets(STDIN));
 
-$media = ($nota1 + $nota2 + $nota3 + $nota4) / 4;
+$total = $nota1 + $nota2 + $nota3 + $nota4;
 
-echo "A média das quatro notas é: $media\n";
+echo "A pontuação total das quatro notas é: $total\n";
 ?>
